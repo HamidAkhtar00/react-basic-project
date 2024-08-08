@@ -3,6 +3,7 @@ import React from 'react';
 import { Typography, Box, Container } from '@mui/material';
 import bgImage from '../assets/1.png';
 
+
 const Home = () => {
   return (
     <Box
@@ -25,16 +26,16 @@ const Home = () => {
           Hello !!!
         </Typography>
         <Typography variant="h2" gutterBottom>
-          I'm Alexander Aronowitz
+          I'm Hamid Akhtar
         </Typography>
         <Typography variant="h4" gutterBottom>
-          Professional Content Creator
+          React Developer 
         </Typography>
         <Typography variant="body1" paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet massa sed leo molestie ultrices in non mi. Suspendisse mollis nisl ac aliquet pretium. Suspendisse dignissim, odio non hendrerit suscipit, lorem ipsum tempus tortor, suscipit vestibulum velit quam nec nibh.
         </Typography>
         <Typography variant="body2" paragraph>
-          Portfolio 2023
+          Portfolio 2024
         </Typography>
       </Container>
     </Box>

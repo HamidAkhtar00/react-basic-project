@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: 'transparent' }} >
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
           Online Portfolio

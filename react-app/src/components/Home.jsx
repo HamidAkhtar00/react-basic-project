@@ -3,7 +3,6 @@ import React from 'react';
 import { Typography, Box, Container } from '@mui/material';
 import bgImage from '../assets/1.png';
 
-
 const Home = () => {
   return (
     <Box

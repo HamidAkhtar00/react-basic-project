@@ -2,6 +2,7 @@
 import React from 'react';
 import { Typography, Box, Container } from '@mui/material';
 import bgImage from '../assets/1.png';
+import CounterApp from './Counter';
 
 const Home = () => {
   return (
@@ -37,6 +38,9 @@ const Home = () => {
           Portfolio 2024
         </Typography>
       </Container>
+
+      <CounterApp />
+
     </Box>
   );
 };

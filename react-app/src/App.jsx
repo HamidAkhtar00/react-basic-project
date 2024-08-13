@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Header from './components/Header';
+import CounterApp from './components/Counter';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/counter" element={<CounterApp />} />
       </Routes>
     </>
   );

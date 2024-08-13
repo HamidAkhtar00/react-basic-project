@@ -18,7 +18,7 @@ const CounterApp = () => {
   };
 
   return (
-    <Box sx={{ flexGrow: 1, p: 2, display: 'flex', justifyContent: 'center', alignItems: 'center', bgcolor: 'transparent' }}>
+    <Box sx={{ flexGrow: 1, p: 2, display: 'flex', justifyContent: 'center', alignItems: 'center', bgcolor: 'transparent'}}>
       <Card sx={{ maxWidth: 300, textAlign: 'center', p: 3, bgcolor:'gray'}}>
         <Typography variant="h5" component="div" gutterBottom 
         sx={{color:'white'}}
@@ -27,12 +27,12 @@ const CounterApp = () => {
         </Typography>
         <Grid container spacing={2} justifyContent="center">
           <Grid item>
-            <Button variant="contained" color="primary" onClick={decrement}>
+            <Button variant="contained" color="inherit" onClick={decrement}>
               Decrement
             </Button>
           </Grid>
           <Grid item>
-            <Button variant="contained" color="secondary" onClick={increment}>
+            <Button variant="contained" color="inherit" onClick={increment}>
               Increment
             </Button>
           </Grid>

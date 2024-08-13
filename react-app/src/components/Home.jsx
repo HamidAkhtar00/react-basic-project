@@ -12,7 +12,7 @@ const Home = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',
-        minHeight: '100vh',
+        minHeight: '90vh',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',

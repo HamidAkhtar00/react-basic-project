@@ -3,6 +3,7 @@ import React from 'react';
 import { Typography, Box, Container } from '@mui/material';
 import bgImage from '../assets/1.png';
 import CounterApp from './Counter';
+import mypics from '../assets/hamid.png'
 
 const Home = () => {
   return (
@@ -12,17 +13,19 @@ const Home = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',
-        minHeight: '90vh',
+        minHeight: '100vh',
+  
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        padding: 2,
+        padding: 0,
+        margin:0,
       }}
     >
       <Container maxWidth="md">
-        <Typography variant="h1" gutterBottom>
+        <Typography variant="h1" gutterBottom >
           Hello !!!
         </Typography>
         <Typography variant="h2" gutterBottom>
@@ -37,6 +40,9 @@ const Home = () => {
         <Typography variant="body2" paragraph>
           Portfolio 2024
         </Typography>
+      </Container>
+      <Container sx={{}}>
+
       </Container>
 
       <CounterApp />

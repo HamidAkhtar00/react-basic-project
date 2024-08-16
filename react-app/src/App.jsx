@@ -9,11 +9,14 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import CounterApp from './components/Counter';
+import { Container } from '@mui/material';
+
+
 
 
 const App = () => {
   return (
-    <>
+    <Container >
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,7 +27,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/counter" element={<CounterApp />} />
       </Routes>
-    </>
+    </Container>
   );
 };
 
